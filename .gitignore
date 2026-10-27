@@ -1,0 +1,5 @@
+*.exe
+harvest_all.json
+wg_profiles_ok.json
+demo.log
+__pycache__/

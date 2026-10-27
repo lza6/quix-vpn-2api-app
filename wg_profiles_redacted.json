@@ -1,0 +1,59 @@
+[
+ {
+  "host": "app.quix-vpn.com",
+  "cc": "US",
+  "profile_id": "a-f-US-22Ilgpxw",
+  "endpoint": "158.220.86.123:41820",
+  "conf": "[Interface]\nPrivateKey = 2CdWFICKj2aYffJ6w3h+50HF6uRs5jMy9H2WAydImHc=\nAddress = 10.0.0.69/8\nDNS = 8.8.8.8,1.1.1.1\nMTU = 1300\n\n[Peer]\nPublicKey = CLu7MktG0dt4ncVDeVnNT6O764G0EA3gJrb9rauRBjs=\nPresharedKey = <REDACTED>\nEndpoint = 158.220.86.123:41820\nAllowedIPs = 0.0.0.0/0\nPersistentKeepalive = 25"
+ },
+ {
+  "host": "us.app.quix-vpn.com",
+  "cc": "US",
+  "profile_id": "a-f-US-h3wp2uMD",
+  "endpoint": "207.244.250.147:41820",
+  "conf": "[Interface]\nPrivateKey = wK7ULUStdhBBw6++3pbvCshQrLOczfmwi8G1R9yCaEU=\nAddress = 10.0.0.21/8\nDNS = 8.8.8.8,1.1.1.1\nMTU = 1300\n\n[Peer]\nPublicKey = CLu7MktG0dt4ncVDeVnNT6O764G0EA3gJrb9rauRBjs=\nPresharedKey = <REDACTED>\nEndpoint = 207.244.250.147:41820\nAllowedIPs = 0.0.0.0/0\nPersistentKeepalive = 25"
+ },
+ {
+  "host": "sg.app.quix-vpn.com",
+  "cc": "SG",
+  "profile_id": "a-f-SG-GPWFkBch",
+  "endpoint": "82.197.70.94:41820",
+  "conf": "[Interface]\nPrivateKey = sJEkgwfTABUMwonCvx/93tnP6pZjYDcw3X6SYjWI1VI=\nAddress = 10.0.0.47/8\nDNS = 8.8.8.8,1.1.1.1\nMTU = 1300\n\n[Peer]\nPublicKey = CLu7MktG0dt4ncVDeVnNT6O764G0EA3gJrb9rauRBjs=\nPresharedKey = <REDACTED>\nEndpoint = 82.197.70.94:41820\nAllowedIPs = 0.0.0.0/0\nPersistentKeepalive = 25"
+ },
+ {
+  "host": "gb.app.quix-vpn.com",
+  "cc": "GB",
+  "profile_id": "a-f-GB-TP56IN5v",
+  "endpoint": "158.220.86.123:41820",
+  "conf": "[Interface]\nPrivateKey = CLqmsiQ9mSUZCfqb488sGJSTglU92OolNyKpDxBb638=\nAddress = 10.0.0.70/8\nDNS = 8.8.8.8,1.1.1.1\nMTU = 1300\n\n[Peer]\nPublicKey = CLu7MktG0dt4ncVDeVnNT6O764G0EA3gJrb9rauRBjs=\nPresharedKey = <REDACTED>\nEndpoint = 158.220.86.123:41820\nAllowedIPs = 0.0.0.0/0\nPersistentKeepalive = 25"
+ },
+ {
+  "host": "in.app.quix-vpn.com",
+  "cc": "IN",
+  "profile_id": "a-f-IN-e7ApODzz",
+  "endpoint": "217.217.249.116:41820",
+  "conf": "[Interface]\nPrivateKey = 8BknNnBKZVX1H2rt6V5OsAnmiaBXNQ7rgT91nPNK81I=\nAddress = 10.0.0.21/8\nDNS = 8.8.8.8,1.1.1.1\nMTU = 1300\n\n[Peer]\nPublicKey = CLu7MktG0dt4ncVDeVnNT6O764G0EA3gJrb9rauRBjs=\nPresharedKey = <REDACTED>\nEndpoint = 217.217.249.116:41820\nAllowedIPs = 0.0.0.0/0\nPersistentKeepalive = 25"
+ },
+ {
+  "host": "in2.app.quix-vpn.com",
+  "cc": "IN",
+  "profile_id": "a-f-IN-e3G0O2hZ",
+  "endpoint": "217.217.249.116:41820",
+  "conf": "[Interface]\nPrivateKey = qMIr/OLa5PGAKKPOXCs1b1nSX2StpM8kxw99bBTf33A=\nAddress = 10.0.0.48/8\nDNS = 8.8.8.8,1.1.1.1\nMTU = 1300\n\n[Peer]\nPublicKey = CLu7MktG0dt4ncVDeVnNT6O764G0EA3gJrb9rauRBjs=\nPresharedKey = <REDACTED>\nEndpoint = 217.217.249.116:41820\nAllowedIPs = 0.0.0.0/0\nPersistentKeepalive = 25"
+ },
+ {
+  "host": "au2.app.quix-vpn.com",
+  "cc": "AU",
+  "profile_id": "a-f-AU-lzgtOxgk",
+  "endpoint": "46.250.246.220:41820",
+  "conf": "[Interface]\nPrivateKey = CJ1qM/sxHt7GXPeHwBHnXDKoSubAwKSIWni6HB+x034=\nAddress = 10.0.0.15/8\nDNS = 8.8.8.8,1.1.1.1\nMTU = 1300\n\n[Peer]\nPublicKey = CLu7MktG0dt4ncVDeVnNT6O764G0EA3gJrb9rauRBjs=\nPresharedKey = <REDACTED>\nEndpoint = 46.250.246.220:41820\nAllowedIPs = 0.0.0.0/0\nPersistentKeepalive = 25"
+ },
+ {
+  "host": "gb4.app.quix-vpn.com",
+  "cc": "GB",
+  "profile_id": "a-f-GB-x6Stj2Jc",
+  "proto": "wg",
+  "endpoint": "158.220.86.123:41820",
+  "conf": "[Interface]\nPrivateKey = mGDL21hwJzIoQV3oI4Jb4ln+zJvyZOBaiSVBCjHPfEs=\nAddress = 10.0.0.72/8\nDNS = 8.8.8.8,1.1.1.1\n\n[Peer]\nPublicKey = CLu7MktG0dt4ncVDeVnNT6O764G0EA3gJrb9rauRBjs=\nPresharedKey = <REDACTED>\nEndpoint = 158.220.86.123:41820\nAllowedIPs 0.0.0.0/0\nPersistentKeepalive = 25"
+ }
+]

@@ -1,0 +1,22 @@
+{
+  "source": "QuixVPN v1.14.8 APK static analysis",
+  "api": "https://56rah0pl8g.execute-api.us-east-1.amazonaws.com",
+  "endpoints": [
+    "getCredentialsV3 (POST, x-api-key)",
+    "getCredentialsFallbackV3",
+    "getServerListV3 (GET)"
+  ],
+  "x_api_key": "5Cd5HqWFISLxzFRp4bPEw78MM2pr7xPp",
+  "harvested": 8,
+  "validated_alive_udp41820": [
+    "app.quix-vpn.com",
+    "us.app.quix-vpn.com",
+    "sg.app.quix-vpn.com",
+    "gb.app.quix-vpn.com",
+    "in.app.quix-vpn.com",
+    "in2.app.quix-vpn.com",
+    "au2.app.quix-vpn.com",
+    "gb4.app.quix-vpn.com"
+  ],
+  "notes": "wg=standard WireGuard, awg=AmneziaWG obfuscated. Each fetch returns fresh per-device keypair. Free-tier param premium_status=f works without Firebase token."
+}

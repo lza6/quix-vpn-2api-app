@@ -1,0 +1,58 @@
+[
+  {
+    "host": "app.quix-vpn.com",
+    "endpoint": "158.220.86.123:41820",
+    "status": "ALIVE",
+    "median_rtt": "3013ms",
+    "probes": 6
+  },
+  {
+    "host": "us.app.quix-vpn.com",
+    "endpoint": "207.244.250.147:41820",
+    "status": "ALIVE",
+    "median_rtt": "3008ms",
+    "probes": 6
+  },
+  {
+    "host": "sg.app.quix-vpn.com",
+    "endpoint": "82.197.70.94:41820",
+    "status": "ALIVE",
+    "median_rtt": "3009ms",
+    "probes": 6
+  },
+  {
+    "host": "gb.app.quix-vpn.com",
+    "endpoint": "158.220.86.123:41820",
+    "status": "ALIVE",
+    "median_rtt": "3011ms",
+    "probes": 6
+  },
+  {
+    "host": "in.app.quix-vpn.com",
+    "endpoint": "217.217.249.116:41820",
+    "status": "ALIVE",
+    "median_rtt": "3009ms",
+    "probes": 6
+  },
+  {
+    "host": "in2.app.quix-vpn.com",
+    "endpoint": "217.217.249.116:41820",
+    "status": "ALIVE",
+    "median_rtt": "3005ms",
+    "probes": 6
+  },
+  {
+    "host": "au2.app.quix-vpn.com",
+    "endpoint": "46.250.246.220:41820",
+    "status": "ALIVE",
+    "median_rtt": "3004ms",
+    "probes": 6
+  },
+  {
+    "host": "gb4.app.quix-vpn.com",
+    "endpoint": "158.220.86.123:41820",
+    "status": "ALIVE",
+    "median_rtt": "3010ms",
+    "probes": 6
+  }
+]
