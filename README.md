@@ -82,10 +82,17 @@ WireGuard 不是 SOCKS5，接入标准代理池需转换层，两条路：
 - 拨号时按 scheme 起对应 netstack device，`DialContext` 直通隧道
 - 优点：无中间进程、单二进制部署；缺点：网关代码改动
 
-### 路径 B：本地 SOCKS5 转换进程
-- 每个可用节点跑一个 `quixwg` 变体：netstack 隧道 + 本地暴露 `127.0.0.1:<port>` SOCKS5
-- 代理池直接填 `socks5://127.0.0.1:<port>`
-- 优点：零网关改动；缺点：每节点一进程需守护（nssm/supervisor）
+### 路径 B：本地 SOCKS5 转换进程 ✅ 已实现（`quixsocks.go`）
+```bash
+go build -o quixsocks.exe .
+./quixsocks.exe wg_profiles_ok.json 9300
+# 节点 i -> socks5://127.0.0.1:(9300+i)，no-auth CONNECT，远端 DNS
+# 健康探测 10 分钟一轮（隧道内拉 ipify），状态 http://127.0.0.1:8950/status
+curl --socks5-hostname 127.0.0.1:9300 https://api.ipify.org   # 实测出口 207.244.250.147
+```
+- 4/4 稳定节点（us/in/in2/au2）实测出口 IP 全部正确
+- 代理池直接填 `socks5://127.0.0.1:930x`，零网关改动
+- 注意：Windows curl(schannel) 需 `--ssl-no-revoke`（吊销检查无法经隧道完成，非代理问题）
 
 ### 凭据保鲜
 - `getCredentialsV3` 每次返回全新 keypair，可定时（如 6h）重收割轮换
